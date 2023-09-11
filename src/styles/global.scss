@@ -1,0 +1,68 @@
+@import './TodoItem.scss';
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    margin: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    display: inline-block;
+    max-width: 170px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    &:hover {
+        border-color: #646cff;
+    }
+}
+
+input {
+    display: inline-block;
+    max-width: 200px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    transition: border-color 0.25s;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    &:focus {
+        border-color: #646cff;
+    }
+}
+
+.completedText {
+    color: green;
+}
+
+.incompletedText {
+    color: red;
+}

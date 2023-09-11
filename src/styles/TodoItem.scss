@@ -1,0 +1,22 @@
+.todoItem {
+    padding: 20px;
+    background-color: rgb(176, 177, 177);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:first-child {
+        margin-top: 20px;
+    }
+    font-size: 20px;
+    &+& {
+        margin-top: 20px;
+    }
+}
+
+// .completed svg {
+//     fill: green;
+// }
+// .notCompleted svg {
+//     fill: red;
+// }
